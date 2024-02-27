@@ -1,0 +1,13 @@
+
+h2{
+    text-align: center;
+}
+
+#videoDiv{
+    text-align: center;
+}
+
+video{
+    width: 800px;
+    height: 400px;
+}
