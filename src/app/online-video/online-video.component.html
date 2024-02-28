@@ -1,10 +1,19 @@
 <div>
-  <br/>
+  <br />
   <h2>Online Video</h2>
   <div id="videoDiv">
-    <video controls>
-      <source src="https://apivideo-demo.s3.amazonaws.com/hello.mp4" type="video/mp4">
+    <video #video controls>
+      <!-- <source src="https://apivideo-demo.s3.amazonaws.com/hello.mp4" type="video/mp4"> -->
+      <source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
       Your browser does not support HTML5 video.
     </video>
+  </div>
+  <div id="thumbnailDiv">
+    <br>
+    <button (click)="capture()">Capture</button> &nbsp;
+    <button (click)="clearCanvas()">Clear</button>
+    <br><br>
+    <canvas #canvas></canvas>
+    <br><br>
   </div>
 </div>

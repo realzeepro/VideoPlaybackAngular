@@ -11,3 +11,12 @@ video{
     width: 800px;
     height: 400px;
 }
+
+#thumbnailDiv{
+    text-align: center;
+}
+
+canvas{
+    width: 800px;
+    height: 400px;
+}
